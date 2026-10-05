@@ -1,0 +1,702 @@
+{
+  "stable": [
+    {
+      "case": "allow",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "allow",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "allow-reason",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "allow-reason",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "expect",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "expect",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "unfulfilled",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": [
+        "unfulfilled_lint_expectations"
+      ]
+    },
+    {
+      "case": "unfulfilled",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "unfulfilled_lint_expectations"
+      ]
+    },
+    {
+      "case": "stale",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "stale",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "inner",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "inner",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "multiple",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "multiple",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "unused_variables",
+        "dead_code"
+      ]
+    },
+    {
+      "case": "group",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "group",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "unused_mut",
+        "unused_variables",
+        "dead_code"
+      ]
+    },
+    {
+      "case": "expect-group",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "expect-group",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "unused_mut",
+        "unused_variables"
+      ]
+    },
+    {
+      "case": "warnings-leaf",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "warnings-leaf",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "warnings-group",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "warnings-group",
+      "pass": "forced",
+      "exit": 1,
+      "diagnostic_codes": [
+        "E0602",
+        null
+      ]
+    },
+    {
+      "case": "deny",
+      "pass": "baseline",
+      "exit": 1,
+      "diagnostic_codes": [
+        "dead_code",
+        null
+      ]
+    },
+    {
+      "case": "deny",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "forbid",
+      "pass": "baseline",
+      "exit": 1,
+      "diagnostic_codes": [
+        "dead_code",
+        null
+      ]
+    },
+    {
+      "case": "forbid",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "cap-allow",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "cap-allow",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "nested-allows",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "nested-allows",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "shadowed-expect",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": [
+        "unfulfilled_lint_expectations"
+      ]
+    },
+    {
+      "case": "shadowed-expect",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "unused_variables",
+        "unfulfilled_lint_expectations"
+      ]
+    },
+    {
+      "case": "cfg-off",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "cfg-off",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "cfg-on",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "cfg-on",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "allow-default",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "allow-default",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "trivial_casts"
+      ]
+    },
+    {
+      "case": "allow-default-without-attribute",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "allow-default-without-attribute",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "trivial_casts"
+      ]
+    },
+    {
+      "case": "unknown",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": [
+        "unknown_lints"
+      ]
+    },
+    {
+      "case": "unknown",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "E0602",
+        "unknown_lints"
+      ]
+    },
+    {
+      "case": "renamed",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": [
+        "renamed_and_removed_lints"
+      ]
+    },
+    {
+      "case": "renamed",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "renamed_and_removed_lints",
+        "renamed_and_removed_lints",
+        "dead_code"
+      ]
+    },
+    {
+      "case": "removed",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": [
+        "renamed_and_removed_lints"
+      ]
+    },
+    {
+      "case": "removed",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "renamed_and_removed_lints",
+        "renamed_and_removed_lints"
+      ]
+    }
+  ],
+  "nightly": [
+    {
+      "case": "allow",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "allow",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "allow-reason",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "allow-reason",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "expect",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "expect",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "unfulfilled",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": [
+        "unfulfilled_lint_expectations"
+      ]
+    },
+    {
+      "case": "unfulfilled",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "unfulfilled_lint_expectations"
+      ]
+    },
+    {
+      "case": "stale",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "stale",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "inner",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "inner",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "multiple",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "multiple",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "unused_variables",
+        "dead_code"
+      ]
+    },
+    {
+      "case": "group",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "group",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "unused_mut",
+        "unused_variables",
+        "dead_code"
+      ]
+    },
+    {
+      "case": "expect-group",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "expect-group",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "unused_mut",
+        "unused_variables"
+      ]
+    },
+    {
+      "case": "warnings-leaf",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "warnings-leaf",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "warnings-group",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "warnings-group",
+      "pass": "forced",
+      "exit": 1,
+      "diagnostic_codes": [
+        "E0602",
+        null
+      ]
+    },
+    {
+      "case": "deny",
+      "pass": "baseline",
+      "exit": 1,
+      "diagnostic_codes": [
+        "dead_code",
+        null
+      ]
+    },
+    {
+      "case": "deny",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "forbid",
+      "pass": "baseline",
+      "exit": 1,
+      "diagnostic_codes": [
+        "dead_code",
+        null
+      ]
+    },
+    {
+      "case": "forbid",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "cap-allow",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "cap-allow",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "nested-allows",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "nested-allows",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "shadowed-expect",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": [
+        "unfulfilled_lint_expectations"
+      ]
+    },
+    {
+      "case": "shadowed-expect",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "unused_variables",
+        "unfulfilled_lint_expectations"
+      ]
+    },
+    {
+      "case": "cfg-off",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "cfg-off",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "cfg-on",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "cfg-on",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "dead_code"
+      ]
+    },
+    {
+      "case": "allow-default",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "allow-default",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "trivial_casts"
+      ]
+    },
+    {
+      "case": "allow-default-without-attribute",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": []
+    },
+    {
+      "case": "allow-default-without-attribute",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "trivial_casts"
+      ]
+    },
+    {
+      "case": "unknown",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": [
+        "unknown_lints"
+      ]
+    },
+    {
+      "case": "unknown",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "E0602",
+        "unknown_lints"
+      ]
+    },
+    {
+      "case": "renamed",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": [
+        "renamed_and_removed_lints"
+      ]
+    },
+    {
+      "case": "renamed",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "renamed_and_removed_lints",
+        "renamed_and_removed_lints",
+        "dead_code"
+      ]
+    },
+    {
+      "case": "removed",
+      "pass": "baseline",
+      "exit": 0,
+      "diagnostic_codes": [
+        "renamed_and_removed_lints"
+      ]
+    },
+    {
+      "case": "removed",
+      "pass": "forced",
+      "exit": 0,
+      "diagnostic_codes": [
+        "renamed_and_removed_lints",
+        "renamed_and_removed_lints"
+      ]
+    }
+  ]
+}

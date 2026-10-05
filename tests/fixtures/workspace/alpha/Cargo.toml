@@ -1,0 +1,17 @@
+[package]
+name = "alpha"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dependency = { path = "../dependency" }
+beta = { path = "../beta" }
+
+[features]
+extra = []
+
+[lints.rust]
+unused_variables = { level = "allow", priority = 0 }
+
+[lints.clippy]
+needless_return = "allow"

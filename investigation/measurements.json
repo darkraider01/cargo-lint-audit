@@ -1,0 +1,239 @@
+[
+  {
+    "mode": "rustc",
+    "step": "cold",
+    "total_ms": 1644,
+    "baseline_ms": 704,
+    "forced_ms": 691,
+    "baseline_compiled": 8,
+    "forced_compiled": 8,
+    "baseline_all_compiled": 9,
+    "forced_all_compiled": 9,
+    "baseline_all_fresh": 0,
+    "forced_all_fresh": 0,
+    "new_diagnostics": 38,
+    "status_counts": [
+      {
+        "status": "DIAGNOSTIC_OBSERVED",
+        "count": 18
+      },
+      {
+        "status": "NO_DIAGNOSTIC_OBSERVED",
+        "count": 2
+      },
+      {
+        "status": "UNKNOWN",
+        "count": 9
+      }
+    ],
+    "forced_lints": {
+      "alpha": [
+        "--force-warn=dead_code",
+        "--force-warn=trivial_casts",
+        "--force-warn=unused",
+        "--force-warn=unused_variables"
+      ],
+      "beta": [
+        "--force-warn=dead_code"
+      ]
+    }
+  },
+  {
+    "mode": "rustc",
+    "step": "cached",
+    "total_ms": 409,
+    "baseline_ms": 95,
+    "forced_ms": 91,
+    "baseline_compiled": 0,
+    "forced_compiled": 0,
+    "baseline_all_compiled": 0,
+    "forced_all_compiled": 0,
+    "baseline_all_fresh": 9,
+    "forced_all_fresh": 9,
+    "new_diagnostics": 38,
+    "status_counts": [
+      {
+        "status": "DIAGNOSTIC_OBSERVED",
+        "count": 18
+      },
+      {
+        "status": "NO_DIAGNOSTIC_OBSERVED",
+        "count": 2
+      },
+      {
+        "status": "UNKNOWN",
+        "count": 9
+      }
+    ],
+    "forced_lints": {
+      "alpha": [
+        "--force-warn=dead_code",
+        "--force-warn=trivial_casts",
+        "--force-warn=unused",
+        "--force-warn=unused_variables"
+      ],
+      "beta": [
+        "--force-warn=dead_code"
+      ]
+    }
+  },
+  {
+    "mode": "rustc",
+    "step": "source-edit",
+    "total_ms": 836,
+    "baseline_ms": 307,
+    "forced_ms": 280,
+    "baseline_compiled": 5,
+    "forced_compiled": 5,
+    "baseline_all_compiled": 5,
+    "forced_all_compiled": 5,
+    "baseline_all_fresh": 4,
+    "forced_all_fresh": 4,
+    "new_diagnostics": 38,
+    "status_counts": [
+      {
+        "status": "DIAGNOSTIC_OBSERVED",
+        "count": 18
+      },
+      {
+        "status": "NO_DIAGNOSTIC_OBSERVED",
+        "count": 2
+      },
+      {
+        "status": "UNKNOWN",
+        "count": 9
+      }
+    ],
+    "forced_lints": {
+      "alpha": [
+        "--force-warn=dead_code",
+        "--force-warn=trivial_casts",
+        "--force-warn=unused",
+        "--force-warn=unused_variables"
+      ],
+      "beta": [
+        "--force-warn=dead_code"
+      ]
+    }
+  },
+  {
+    "mode": "clippy",
+    "step": "cold",
+    "total_ms": 2004,
+    "baseline_ms": 840,
+    "forced_ms": 828,
+    "baseline_compiled": 8,
+    "forced_compiled": 8,
+    "baseline_all_compiled": 9,
+    "forced_all_compiled": 9,
+    "baseline_all_fresh": 0,
+    "forced_all_fresh": 0,
+    "new_diagnostics": 42,
+    "status_counts": [
+      {
+        "status": "DIAGNOSTIC_OBSERVED",
+        "count": 21
+      },
+      {
+        "status": "NO_DIAGNOSTIC_OBSERVED",
+        "count": 2
+      },
+      {
+        "status": "UNKNOWN",
+        "count": 6
+      }
+    ],
+    "forced_lints": {
+      "alpha": [
+        "--force-warn=clippy::needless_return",
+        "--force-warn=dead_code",
+        "--force-warn=trivial_casts",
+        "--force-warn=unused",
+        "--force-warn=unused_variables"
+      ],
+      "beta": [
+        "--force-warn=dead_code"
+      ]
+    }
+  },
+  {
+    "mode": "clippy",
+    "step": "cached",
+    "total_ms": 621,
+    "baseline_ms": 199,
+    "forced_ms": 198,
+    "baseline_compiled": 0,
+    "forced_compiled": 0,
+    "baseline_all_compiled": 0,
+    "forced_all_compiled": 0,
+    "baseline_all_fresh": 9,
+    "forced_all_fresh": 9,
+    "new_diagnostics": 42,
+    "status_counts": [
+      {
+        "status": "DIAGNOSTIC_OBSERVED",
+        "count": 21
+      },
+      {
+        "status": "NO_DIAGNOSTIC_OBSERVED",
+        "count": 2
+      },
+      {
+        "status": "UNKNOWN",
+        "count": 6
+      }
+    ],
+    "forced_lints": {
+      "alpha": [
+        "--force-warn=clippy::needless_return",
+        "--force-warn=dead_code",
+        "--force-warn=trivial_casts",
+        "--force-warn=unused",
+        "--force-warn=unused_variables"
+      ],
+      "beta": [
+        "--force-warn=dead_code"
+      ]
+    }
+  },
+  {
+    "mode": "clippy",
+    "step": "source-edit",
+    "total_ms": 976,
+    "baseline_ms": 366,
+    "forced_ms": 380,
+    "baseline_compiled": 5,
+    "forced_compiled": 5,
+    "baseline_all_compiled": 5,
+    "forced_all_compiled": 5,
+    "baseline_all_fresh": 4,
+    "forced_all_fresh": 4,
+    "new_diagnostics": 42,
+    "status_counts": [
+      {
+        "status": "DIAGNOSTIC_OBSERVED",
+        "count": 21
+      },
+      {
+        "status": "NO_DIAGNOSTIC_OBSERVED",
+        "count": 2
+      },
+      {
+        "status": "UNKNOWN",
+        "count": 6
+      }
+    ],
+    "forced_lints": {
+      "alpha": [
+        "--force-warn=clippy::needless_return",
+        "--force-warn=dead_code",
+        "--force-warn=trivial_casts",
+        "--force-warn=unused",
+        "--force-warn=unused_variables"
+      ],
+      "beta": [
+        "--force-warn=dead_code"
+      ]
+    }
+  }
+]

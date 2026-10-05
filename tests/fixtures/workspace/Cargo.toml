@@ -1,0 +1,8 @@
+[workspace]
+members = ["alpha", "beta"]
+default-members = ["alpha"]
+exclude = ["dependency"]
+resolver = "2"
+
+[workspace.lints.rust]
+dead_code = "allow"
